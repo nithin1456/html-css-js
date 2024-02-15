@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.hero{
+
+    width: 100%;
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 3%;
+    display: flex;
+    justify-content: space-between;
+
+   
+}
+
+nav a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    
+
+   
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    cursor: pointer;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    
+    
+   display: inline-block;
+   justify-content: center;
+   align-items: center;
+   background-image:url("bag.jpg") ;
+   background-repeat:no-repeat;
+   background-size: cover;
+}
+
+.abt{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.abt p{
+    font-size: 30px;  
+    color: white;
+}
+.intro{
+    max-width:200px;
+    height:50px;
+    padding: 5px 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+
+.intro:hover{
+    max-width: 350px;
+    height: fit-content;
+    padding: 5px 5px;
+    background-color: rgb(9, 8, 8);
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.bac{
+    max-width:200px;
+    height:50px;
+    padding: 5px 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    transition: 0.4s;
+
+}
+.bac:hover{
+    max-width: 350px;
+    height: fit-content;
+    padding: 5px 5px;
+    
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.shin{
+    max-width:200px;
+    height:40px;
+    padding: 5px 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    transition: 0.4s;
+
+}
+.shin:hover{
+    max-width: 350px;
+    height: fit-content;
+    padding: 5px 5px;
+    background-color: rgb(9, 8, 8);
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.ps{
+    max-width:200px;
+    height:40px;
+    padding: 5px 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+
+}
+.ps:hover{
+    max-width: 350px;
+    height: fit-content;
+    padding: 5px 5px;
+    background-color: hsl(0, 26%, 4%);
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.leg{
+    max-width:200px;
+    height:50px;
+    padding: 5px 5px;
+    margin-top: 10px;
+    overflow: hidden;
+    transition: 0.4s;
+
+}
+.leg:hover{
+    max-width: 350px;
+    height: fit-content;
+    padding: 5px 5px;
+    background-color: rgb(9, 8, 8);
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+#hed{
+    color: red;
+    text-decoration: underline white;
+    padding: 10px 30px;
+
+}
+#inf{
+    color: white;
+
+}
+
+.content{
+    text-align: center;
+    
+}
+.content h1{
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.content p{
+    font-size: 90px;
+    color: #fff;
+    font-weight: 350;
+    transition: 0.5s;
+
+
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 14px 70px;
+    margin-top: 20px;
+}
+.content p span{
+    color: red;
+}
+.content h1 span{
+    color: red;
+}
+.back{
+    position: absolute;
+    right: 0;
+    bottom:0;
+    z-index: -1;
+}
+
+@media(min-aspect-ratio:16/9){
+    .back{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio:16/9){
+    .back{
+        width: auto;
+        height: 100%;
+    }
+}
+.content  :hover{
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+ 
